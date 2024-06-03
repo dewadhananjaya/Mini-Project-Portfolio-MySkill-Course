@@ -149,6 +149,7 @@ body {
 /* responsif web */
 @media (max-width: 600px) {
   .nameProfile {
+    width: 100%;
     white-space: inherit;
     font-size: 30px;
   }
