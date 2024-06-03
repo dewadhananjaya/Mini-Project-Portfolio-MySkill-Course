@@ -161,4 +161,8 @@ body {
     max-height: 100px;
     margin-right: 20px;
   }
+
+ footer {
+    width: 100%;
+  }
 }
