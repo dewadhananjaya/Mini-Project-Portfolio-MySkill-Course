@@ -5,7 +5,6 @@ body {
     font-family: "Roboto Slab", serif;
   }
   header {
-    width: 100%;
     background: rgb(131, 58, 180);
     background: linear-gradient(
       90deg,
@@ -46,14 +45,14 @@ body {
     flex: 2;
   }
   .nameProfile {
-    font-size: 48px;
+    font-size: 40px;
     color: white;
     font-weight: 600;
     white-space: nowrap;
   }
   .titleProfile {
     color: white;
-    font-size: 36px;
+    font-size: 30px;
   }
   .button {
     border: none;
@@ -88,7 +87,6 @@ body {
   }
   .barFilling {
     position: absolute;
-
     height: 20px;
     border-radius: 20px;
     transition: all;
@@ -131,7 +129,6 @@ body {
     font-weight: 400;
   }
   footer {
-    width: 100%;
     background-color: rgb(65, 85, 95);
     text-align: center;
   }
@@ -148,7 +145,7 @@ body {
   }
 
 /* responsif web */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .nameProfile {
     white-space: inherit;
     font-size: 30px;
