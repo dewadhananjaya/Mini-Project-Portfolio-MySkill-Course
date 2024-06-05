@@ -13,6 +13,9 @@ body {
       rgb(179, 252, 69) 100%
     );
     padding: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .headerContainer {
     display: flex;
@@ -48,7 +51,6 @@ body {
     font-size: 40px;
     color: white;
     font-weight: 600;
-    white-space: nowrap;
   }
   .titleProfile {
     color: white;
@@ -162,7 +164,7 @@ body {
     margin-right: 20px;
   }
 
- footer {
+  footer {
     width: 100%;
   }
 }
