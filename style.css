@@ -13,9 +13,6 @@ body {
       rgb(179, 252, 69) 100%
     );
     padding: 20px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
   .headerContainer {
     display: flex;
@@ -51,6 +48,7 @@ body {
     font-size: 40px;
     color: white;
     font-weight: 600;
+    white-space: inherit;
   }
   .titleProfile {
     color: white;
@@ -94,12 +92,12 @@ body {
     transition: all;
     transition-duration: 1s;
   }
-  .green {
+  .blue {
     background-color: rgb(55, 120, 181);
     width: 90%;
   }
-  .orange {
-    background-color: rgb(300, 220, 160);
+  .green {
+    background-color: rgb(35, 220, 160);
     width: 75%;
   }
   .purple {
@@ -150,7 +148,6 @@ body {
 @media screen and (max-width: 600px) {
   .nameProfile {
     width: 100%;
-    white-space: inherit;
     font-size: 30px;
   }
 
@@ -162,6 +159,10 @@ body {
     max-width: 100px;
     max-height: 100px;
     margin-right: 20px;
+  }
+
+  body {
+    padding: 20px;
   }
 
   footer {
