@@ -56,7 +56,7 @@ body {
   }
   .button {
     border: none;
-    padding: 10px 20px;
+    padding: 5px 10px;
     margin: 10px 10px 0 0;
     font-family: "Roboto Slab", serif;
     border-radius: 40px;
@@ -136,7 +136,7 @@ body {
   .footerHolder {
     max-width: 900px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
   }
   .footerName {
     font-size: 20px;
@@ -146,13 +146,17 @@ body {
 
 /* responsif web */
 @media screen and (max-width: 600px) {
+  header {
+    border-radius: 30px;
+  }
+
   .nameProfile {
     width: 100%;
     font-size: 30px;
   }
 
   .titleProfile {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .imgProfile {
@@ -162,10 +166,11 @@ body {
   }
 
   body {
-    padding: 20px;
+    margin: 20px;
   }
 
   footer {
     width: 100%;
+    border-radius: 30px;
   }
 }
