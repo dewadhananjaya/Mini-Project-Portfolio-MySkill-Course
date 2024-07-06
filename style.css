@@ -1,0 +1,176 @@
+body {
+    background-color: beige;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+  }
+  header {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+      90deg,
+      rgb(75, 206, 250) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgb(179, 252, 69) 100%
+    );
+    padding: 20px;
+  }
+  .headerContainer {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .contentHolder {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .imgProfile {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border: 5px solid white;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px 2px rgba(84, 43, 111, 0.485);
+    transition: all;
+    transition-duration: 1s;
+  }
+  .imgProfile:hover {
+    margin-left: -10px;
+  }
+  .holderImgProfile {
+    flex: 1;
+    text-align: center;
+  }
+  .holderDetailProfile {
+    flex: 2;
+  }
+  .nameProfile {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    white-space: inherit;
+  }
+  .titleProfile {
+    color: white;
+    font-size: 30px;
+  }
+  .button {
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 10px 0 0;
+    font-family: "Roboto Slab", serif;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all;
+    transition-duration: 1s;
+  }
+  .button.download {
+    background-color: #25e3ca;
+    color: rgb(43, 43, 43);
+    cursor: pointer;
+  }
+  .button.hire {
+    background-color: #da50cc;
+    color: rgb(65, 85, 95);
+    cursor: pointer;
+  }
+  .button:hover {
+    transform: scale(1.1);
+  }
+  .barContainer {
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(235, 233, 233);
+    position: relative;
+  }
+  .barFilling {
+    position: absolute;
+    height: 20px;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+  }
+  .blue {
+    background-color: rgb(55, 120, 181);
+    width: 90%;
+  }
+  .green {
+    background-color: rgb(35, 220, 160);
+    width: 75%;
+  }
+  .purple {
+    background-color: rgb(230, 160, 250);
+    width: 55%;
+  }
+  .subContent {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+  }
+  h3 {
+    font-weight: 600;
+  }
+  .skillBar {
+    display: block;
+    margin: 10px 0;
+  }
+  ul.last-project li {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  ul.last-project li:first-child {
+    padding-top: 0;
+  }
+  .sub-last-project {
+    font-size: 16px;
+    color: rgb(66, 66, 66);
+    font-weight: 400;
+  }
+  footer {
+    background-color: rgb(65, 85, 95);
+    text-align: center;
+  }
+
+  .footerHolder {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .footerName {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+
+/* responsif web */
+@media screen and (max-width: 600px) {
+  header {
+    border-radius: 30px;
+  }
+
+  .nameProfile {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .titleProfile {
+    font-size: 20px;
+  }
+
+  .imgProfile {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+  }
+
+  body {
+    margin: 20px;
+  }
+
+  footer {
+    width: 100%;
+    border-radius: 30px;
+  }
+}
